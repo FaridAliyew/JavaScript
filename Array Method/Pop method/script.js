@@ -1,8 +1,8 @@
 // Task 1 (Bir array yaradın və daxilində beş element olsun. Sonra pop metodunu istifadə edərək array-in son elementini silin və yeni array-i çap edin.)
 
-// const myArray = [12,"Hello",true,false,"45"];
-// let deletedEle = myArray.pop();
-// console.log(myArray);
+const myArray = [12,"Hello",true,false,"45"];
+let deletedEle = myArray.pop();
+console.log(myArray);
 
 
 

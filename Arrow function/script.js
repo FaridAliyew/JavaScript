@@ -1,33 +1,33 @@
 // Task 1 - Bir arrow function yazın ki, verilmiş bir arraydeki ədədlərin kvadratlarını qaytarsın.
 
-let array = [1, 2, 4, 5];
-let newArray = [];
-let square = () => {
-    array.map((value) => {
-        newArray.push(value**2);
-    });
-}
+// let array = [1, 2, 4, 5];
+// let newArray = [];
+// let square = () => {
+//     array.map((value) => {
+//         newArray.push(value**2);
+//     });
+// }
 
-square();
-console.log(newArray);
+// square();
+// console.log(newArray);
 
 
 
 
 // Task 2 - Bir arrow function yazın ki, iki arrayin götürsün və onların ortaq elementlərini qaytarsın.
 
-// const arrayOne = [12, 56, 34, 25, 90 , 77];
-// const arrayTwo = [34, 94, 21, 12, 44 , 77];
+const arrayOne = [12, 56, 34, 25, 90 , 77];
+const arrayTwo = [34, 94, 21, 12, 44 , 77];
 
-// const arrowFunc = () => {
-//     arrayOne.filter((value) => {
-//         let result = arrayTwo.includes(value);
-//         if (result) {
-//             console.log(value);
-//         }
-//     });
-// }
-// arrowFunc();
+const arrowFunc = () => {
+    arrayOne.filter((value) => {
+        let result = arrayTwo.includes(value);
+        if (result) {
+            console.log(value);
+        }
+    });
+}
+arrowFunc();
 
 
 

@@ -16,32 +16,32 @@
 
 // Task 2 - Bir arrow function yazın ki, iki arrayin götürsün və onların ortaq elementlərini qaytarsın.
 
-const arrayOne = [12, 56, 34, 25, 90 , 77];
-const arrayTwo = [34, 94, 21, 12, 44 , 77];
+// const arrayOne = [12, 56, 34, 25, 90 , 77];
+// const arrayTwo = [34, 94, 21, 12, 44 , 77];
 
-const arrowFunc = () => {
-    arrayOne.filter((value) => {
-        let result = arrayTwo.includes(value);
-        if (result) {
-            console.log(value);
-        }
-    });
-}
-arrowFunc();
+// const arrowFunc = () => {
+//     arrayOne.filter((value) => {
+//         let result = arrayTwo.includes(value);
+//         if (result) {
+//             console.log(value);
+//         }
+//     });
+// }
+// arrowFunc();
 
 
 
 
 // Task 3 - Bir arrow function yazın ki, verilmiş arraydəki cüt ədədləri filtirləsin.
 
-// const array = [12, 88, 21, 125, 85.2, 98];
+const array = [12, 88, 21, 125, 85.2, 98];
 
-// const filterEvenNumbers = () => {
-//     const result = array.filter(value => value % 2 === 0);
-//     return result;
-// };
+const filterEvenNumbers = () => {
+    const result = array.filter(value => value % 2 === 0);
+    return result;
+};
 
-// console.log(filterEvenNumbers());
+console.log(filterEvenNumbers());
 
 
 
